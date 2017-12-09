@@ -36,6 +36,7 @@ type InfoStat struct {
 	Family     string   `json:"family"`
 	Model      string   `json:"model"`
 	Stepping   int32    `json:"stepping"`
+	Serial     string   `json:"serial"`
 	PhysicalID string   `json:"physicalId"`
 	CoreID     string   `json:"coreId"`
 	Cores      int32    `json:"cores"`

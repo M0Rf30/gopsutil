@@ -162,6 +162,8 @@ func Info() ([]InfoStat, error) {
 				return ret, err
 			}
 			c.Stepping = int32(t)
+		case "Serial":
+			c.Serial = value
 		case "cpu MHz", "clock":
 			// treat this as the fallback value, thus we ignore error
 			if t, err := strconv.ParseFloat(strings.Replace(value, "MHz", "", 1), 64); err == nil {
