@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/shirou/gopsutil/internal/common"
+	"github.com/M0Rf30/gopsutil/internal/common"
 )
 
 func Avg() (*AvgStat, error) {

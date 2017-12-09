@@ -11,10 +11,10 @@ import (
 	"unsafe"
 
 	"github.com/StackExchange/wmi"
-	cpu "github.com/shirou/gopsutil/cpu"
-	"github.com/shirou/gopsutil/internal/common"
-	net "github.com/shirou/gopsutil/net"
-	"github.com/shirou/w32"
+	cpu "github.com/M0Rf30/gopsutil/cpu"
+	"github.com/M0Rf30/gopsutil/internal/common"
+	net "github.com/M0Rf30/gopsutil/net"
+	"github.com/M0Rf30/w32"
 	"golang.org/x/sys/windows"
 )
 

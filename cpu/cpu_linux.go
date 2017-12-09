@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/shirou/gopsutil/internal/common"
+	"github.com/M0Rf30/gopsutil/internal/common"
 )
 
 var cpu_tick = float64(100)

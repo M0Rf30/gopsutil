@@ -9,10 +9,10 @@ import (
 	"strings"
 	"unsafe"
 
-	cpu "github.com/shirou/gopsutil/cpu"
-	"github.com/shirou/gopsutil/internal/common"
-	mem "github.com/shirou/gopsutil/mem"
-	net "github.com/shirou/gopsutil/net"
+	cpu "github.com/M0Rf30/gopsutil/cpu"
+	"github.com/M0Rf30/gopsutil/internal/common"
+	mem "github.com/M0Rf30/gopsutil/mem"
+	net "github.com/M0Rf30/gopsutil/net"
 	"golang.org/x/sys/unix"
 )
 
